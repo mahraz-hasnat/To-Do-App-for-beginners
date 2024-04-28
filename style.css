@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#task-form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#task-input {
+  padding: 8px;
+  width: 60%;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+#task-list li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+#task-list li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
